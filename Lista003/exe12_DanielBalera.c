@@ -123,4 +123,12 @@ int main()
             printf("Data inválida\n");
         break;
     }
+    
+    if (mes > 12) {
+        if (mes < 1)
+            printf("Mês inválido\n");
+    }
+    printf("\n Daniel Balera")
+    getchar();
+    return 0;
 }
